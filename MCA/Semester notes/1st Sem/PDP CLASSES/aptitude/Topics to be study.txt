@@ -1,0 +1,15 @@
+1. Numbers
+2. percentage
+3. profit and loss
+4. Average
+5. Ratio and propotion
+6. Mixture and Alligation
+7. Time and work
+8. Time Speed Distance
+9. Pipes and Cisterns
+10. Algebra
+11. Trigonometry, Height, and Distance
+12. Geometry
+13. Probability
+14. Permutation and Combination(PnC)
+15. Age 
