@@ -842,7 +842,8 @@ public:
         next = nullptr;
     }
 };
-
+```
+```cpp
 // Doubly Linked List class
 class DoublyLinkedList {
 public:
@@ -890,7 +891,7 @@ int main() {
     dll.insertAtTail(20);
     return 0;
 }
-
+```
 
 ## Deletion
 
@@ -979,7 +980,7 @@ int main() {
     return 0;
 }
 
-
+```
  
 
 ## Length of the Linked List
