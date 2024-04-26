@@ -1024,10 +1024,18 @@ Linked lists are employed in applications that require undo/redo functionality, 
 # Stack
 
 Imagine a stack of plates or a pile of notebooks - these are common real-world representations of a stack. A stack is a fundamental data structure that can efficiently solve many interesting problems.
+![introduction-to-stacks-1-1700465843](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/66dc126a-add8-4086-b5a5-3b92c32705aa)
 
 ## Overview
 
 In a stack, data values are stacked on top of each other. The topmost element is the most recently added, while the bottommost element is the oldest.
+
+![introduction-to-stacks-2-1700465843](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/3660b40a-3e60-48db-95ae-dbfc732409a8)
+
+![introduction-to-stacks-3-1700465844](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/7f643c77-4b4e-44e9-9b88-b4a568f77a88)
+
+![introduction-to-stacks-4-1700465844](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/dfe62d60-1f9e-4f5c-82a2-71c051c88e7a)
+
 
 ### Key Points:
 
@@ -1044,7 +1052,12 @@ In a stack, data values are stacked on top of each other. The topmost element is
 
 Monotonic stack is a concept where elements in the stack follow a specific order - either increasing or decreasing.
 
+![monotonic-stack-0-1700465926](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/ea365b7b-b3d6-4b46-b8fa-632f65373b35)
+
+![monotonic-stack-1-1700465927](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/37970e68-188f-4d3e-ac52-400e07c83fdb)
+
 ### Types:
+
 
 - **Increasing Monotonic Stack:** Elements increase as we move towards the bottom of the stack. The topmost element is the smallest, and the bottommost is the largest.
 - **Decreasing Monotonic Stack:** Elements decrease as we move towards the bottom of the stack. The topmost element is the largest, and the bottommost is the smallest.
