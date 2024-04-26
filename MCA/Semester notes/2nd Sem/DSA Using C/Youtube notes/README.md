@@ -392,6 +392,8 @@ int main() {
    } 
    return 0; 
 }
+```
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -412,7 +414,7 @@ int main() {
   
    return 0;
 }
-
+```
 
  
 
@@ -450,9 +452,9 @@ int main() {
    }
    return 0;
 }
-
+```
  
-
+```cpp
 int main() 
 { 
    // Declare the array with the size and the array elements 
@@ -466,7 +468,7 @@ int main()
    } 
       return 0; 
 }
- 
+ ```
 
 Output:
 1 2 3 4 5 6 7 8 9 10
@@ -517,7 +519,7 @@ int main() {
 
     return 0; 
 }
-
+```
 
 # Insertion and Deletion in Arrays
 
@@ -545,6 +547,7 @@ int main() {
         printf("Invalid Position\n");
     return 0;
 }
+```
 
 ### Deletion of an Element in an Array
 To delete a specific element from an array, we traverse and search for that element. The deletion doesn't affect the array size. We also need to check whether deletion is possible.
@@ -577,11 +580,7 @@ int main() {
         printf("Element Not Found\n");
     return 0;
 }
-
-
- 
-
- 
+```
 
 # Real-World Applications of Arrays
 
@@ -692,6 +691,7 @@ int main() {
     cout << "Length of the string: " << length << endl;
     return 0;
 }
+```
 
 ## Length of a String
 
@@ -776,7 +776,7 @@ public:
         next = nullptr;  // Initialize next pointer to null
     }
 };
-
+```
 ## Important Points
 
 - The pointer that points to the starting node of the linked list is called HEAD.
@@ -1004,7 +1004,7 @@ int lengthOfLinkedList(Node* head) {
     }
     return length;
 }
-
+```
 
 ## Real-Life Applications of Linked List
 
