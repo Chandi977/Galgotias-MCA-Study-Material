@@ -321,6 +321,8 @@ String studentName;
 
 # Java Keywords
 
+![java keywords](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/60379673-6488-4ca0-afdf-c2e723307ffb)
+
 Keywords in Java, also known as reserved words, are predefined words with special meanings. These words cannot be used as variable names, as doing so will result in a compile-time error. Below is a list of all the Java keywords:
 
 - `abstract`
