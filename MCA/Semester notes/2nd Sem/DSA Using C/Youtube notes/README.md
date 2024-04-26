@@ -144,6 +144,8 @@ Data structures are fundamental concepts in computer science that involve the or
 - Multilingual Approach
 - Hands-On Practice
 - Adaptable for All Levels
+- 
+![Intro](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/cfaccfbf-7392-4600-b337-a6968ce4b53f)
 
 
 ## Linear Data Structures
@@ -179,22 +181,32 @@ Data structures are fundamental concepts in computer science that involve the or
 ### Real-world Examples of Linear Data Structures
 
 **Arrays:**
+![array](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/b3d60afd-6983-442c-bb4f-f7037bfeb158)
+
 - Grocery Shopping List: Managing your shopping list with each item corresponding to an array index simplifies adding, removing, and checking off items.
 - Image Pixels: In digital images, arrays store pixel values, allowing manipulation and editing of pictures by altering individual pixel colours.
 
 **Linked Lists:**
+![linkedlist](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/22d19f78-fad1-45d4-b520-2139a7e921ba)
+
 - Music Playlist: Linked lists are suitable for creating playlists, where songs are nodes connected in a sequence, allowing easy rearrangement and modification.
 - Train Cars: Linked lists can represent train cars linked together, enabling efficient addition and removal of cars without affecting the entire train.
 
 **Stacks:**
+![stack](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/a24d6430-93c8-480c-8ff5-0b95a9083b4d)
+
 - Undo Feature: In software applications, stacks manage to undo operations, enabling users to reverse actions in the order they were performed.
 - Plate Stacking: Plates stacked on top of each other represent a real-world example of a stack, where the last plate placed is the first one taken.
 
 **Queues:**
+![queue](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/e4389832-f95a-4eb5-9545-333cf9809ade)
+
 - Cafeteria Line: Queues model waiting in line at a cafeteria, where the first person in line is served first, maintaining order and fairness.
 - Ticket Counter: Waiting in line to purchase tickets, like at a cinema or an event, follows the queue concept.
 
 **Deques (Double-Ended Queues):**
+![dqueue](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/b65cafbf-6cc9-4019-a129-bf410bb90d5c)
+
 - Sliding Glass Doors: Deques are similar to sliding glass doors at entrances, allowing people to enter or exit from both sides.
 - Printing and Scanning: Deques mimic the process of loading and unloading papers for printing and scanning, as both ends are accessible.
 
@@ -225,12 +237,20 @@ Non-linear data structures do not follow a sequential order; each element can co
 ## Real-world Examples of Non-Linear Data Structures:
 
 - **Tree:**
-  - File System: Organizing files in a hierarchical structure mirrors the tree concept.
+![tree](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/9d41c974-fd22-4e33-b59e-216c8226cc28)
+  - File System: Orga
+nizing files in a hierarchical structure mirrors the tree concept.
   - Family Genealogy: Representing family relationships, like a family tree.
 - **Graph:**
+
+  ![graph](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/428487c7-d3cf-45c8-85df-9615724910c9)
+
   - Social Networks: Social media platforms model users and their connections.
   - Road Networks: Maps utilize graphs to represent roads and intersections.
 - **Heap:**
+
+  ![heap](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/de0a24a7-e7c7-428c-a92a-6cf542e7f4e2)
+
   - Priority Queue: A hospital's patient queue modeled using a heap.
   - Memory Allocation: The memory heap in programming languages allocates memory dynamically.
 
@@ -280,11 +300,14 @@ Non-linear data structures do not follow a sequential order; each element can co
 
 Single dimensional arrays store elements linearly in contiguous memory locations, utilizing a single dimension. They are denoted as `Array_Name[]`.
 
+![array](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/d5182819-6803-4a7a-ba58-b5ddb78e672e)
+
 ## Multi-Dimensional Arrays
 
 Arrays with more than one dimension are termed multiple-dimensional arrays. The most common multi-dimensional arrays are 2D and 3D arrays.
 
 ### Two-dimensional arrays
+![2darray](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/135ce178-cc22-482a-abf2-b20c6294d863)
 
 2D arrays provide a tabular representation by arranging elements in rows (i) * columns (j). For example, `A[2][3]` will have 2 rows and 3 columns, allocating 6 elements. The array starts from `A[0][0]`.
 
@@ -294,10 +317,16 @@ A 3D array extends a 2D array by adding a depth dimension. It's denoted as `A[k]
 
 ## Properties of Arrays
 
+![properties_of_arrays](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/d8e4a3f8-0cec-4813-9180-8b953a203d01)
+
 - Each array element is of the same data type and size. For example, for an array of integers with the `int` data type, each element occupies 4 bytes.
 - Elements of the array are stored in contiguous memory locations. For instance, if 200 is the starting address (base address) assigned to the first element, each subsequent element follows in memory.
 
 ## Accessing Array Elements
+
+![arrayTraversal](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/aa7c3150-0e1f-4776-9dee-a9b651e64770)
+
+![traversal](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/8f3e3c18-7e54-4636-bbb1-a41b79f6a38c)
 
 - Elements are accessed using their index, which ranges from 0 to N-1 for an array of size N. For example, accessing element at index 5: `Array[5]`.
 - Every array is identified by its base address, i.e., the location of the first element. Hence, the base address helps identify the address of all array elements. For instance, the address of the element at index 4 will be `200 + 4 * (sizeof(int)) = 216`.
@@ -323,7 +352,8 @@ A 3D array extends a 2D array by adding a depth dimension. It's denoted as `A[k]
   - At index i: O(N - i)
   - At the beginning: O(N)
 
- 
+ ![complexity_chart](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/0c9eeafc-39e9-4c70-a3a9-cf59ccfdda20)
+
 
 # Array Operations and Complexity Analysis
 
@@ -340,6 +370,9 @@ Deletion of elements:
   - Deleting from the beginning: O(N) time.
 
 ## Static & Dynamic Arrays
+
+![staticandDynamicArrays](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/003340ed-2e3b-44be-b9bb-a86c4c9164aa)
+
 
 ### Static Arrays
 
@@ -384,7 +417,12 @@ Big O notation expresses algorithmic complexity relative to input size. Here are
 
 Traversal involves visiting each array element sequentially. It's useful for counting, printing, changing values, etc.
 
+![traversal](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/0ab59034-99e0-4554-a06f-60331a4614c3)
+
+
 ```cpp
+#include<iostream>
+using namespace std;
 int main() { 
    int array[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; 
    for (int i = 0; i < 10; i++) { 
