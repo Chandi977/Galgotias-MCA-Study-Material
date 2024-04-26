@@ -180,31 +180,31 @@ Data structures are fundamental concepts in computer science that involve the or
 
 ### Real-world Examples of Linear Data Structures
 
-**Arrays:**
+# Arrays:
 ![array](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/b3d60afd-6983-442c-bb4f-f7037bfeb158)
 
 - Grocery Shopping List: Managing your shopping list with each item corresponding to an array index simplifies adding, removing, and checking off items.
 - Image Pixels: In digital images, arrays store pixel values, allowing manipulation and editing of pictures by altering individual pixel colours.
 
-**Linked Lists:**
+# Linked Lists:
 ![linkedlist](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/22d19f78-fad1-45d4-b520-2139a7e921ba)
 
 - Music Playlist: Linked lists are suitable for creating playlists, where songs are nodes connected in a sequence, allowing easy rearrangement and modification.
 - Train Cars: Linked lists can represent train cars linked together, enabling efficient addition and removal of cars without affecting the entire train.
 
-**Stacks:**
+# Stacks:
 ![stack](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/a24d6430-93c8-480c-8ff5-0b95a9083b4d)
 
 - Undo Feature: In software applications, stacks manage to undo operations, enabling users to reverse actions in the order they were performed.
 - Plate Stacking: Plates stacked on top of each other represent a real-world example of a stack, where the last plate placed is the first one taken.
 
-**Queues:**
+# Queues:
 ![queue](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/e4389832-f95a-4eb5-9545-333cf9809ade)
 
 - Cafeteria Line: Queues model waiting in line at a cafeteria, where the first person in line is served first, maintaining order and fairness.
 - Ticket Counter: Waiting in line to purchase tickets, like at a cinema or an event, follows the queue concept.
 
-**Deques (Double-Ended Queues):**
+# Deques (Double-Ended Queues):
 ![dqueue](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/b65cafbf-6cc9-4019-a129-bf410bb90d5c)
 
 - Sliding Glass Doors: Deques are similar to sliding glass doors at entrances, allowing people to enter or exit from both sides.
@@ -236,18 +236,19 @@ Non-linear data structures do not follow a sequential order; each element can co
 
 ## Real-world Examples of Non-Linear Data Structures:
 
-- **Tree:**
+# Tree:
 ![tree](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/9d41c974-fd22-4e33-b59e-216c8226cc28)
   - File System: Orga
 nizing files in a hierarchical structure mirrors the tree concept.
   - Family Genealogy: Representing family relationships, like a family tree.
-- **Graph:**
+    
+  # Graph:
 
   ![graph](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/428487c7-d3cf-45c8-85df-9615724910c9)
 
   - Social Networks: Social media platforms model users and their connections.
   - Road Networks: Maps utilize graphs to represent roads and intersections.
-- **Heap:**
+ # Heap:
 
   ![heap](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/de0a24a7-e7c7-428c-a92a-6cf542e7f4e2)
 
@@ -361,13 +362,87 @@ A 3D array extends a 2D array by adding a depth dimension. It's denoted as `A[k]
 
 Finding an element in an array takes O(N) time in the worst case, where N is the size of the array, as you may need to traverse the entire array.
 
+```c
+#include <iostream>
+
+// Function to perform linear search
+int linearSearch(int arr[], int n, int target) {
+    for (int i = 0; i < n; ++i) {
+        if (arr[i] == target) {
+            return i; // Return index if element is found
+        }
+    }
+    return -1; // Return -1 if element is not found
+}
+
+int main() {
+    int arr[] = {1, 3, 5, 7, 9, 11, 13, 15};
+    int n = sizeof(arr) / sizeof(arr[0]); // Calculate array size
+    int target = 7;
+
+    int index = linearSearch(arr, n, target);
+    if (index != -1) {
+        std::cout << "Element found at index: " << index << std::endl;
+    } else {
+        std::cout << "Element not found in the array" << std::endl;
+    }
+
+    return 0;
+}
+
+```
+
 ## Deleting Elements
 
 Deletion of elements:
 - Deletion from the end: O(1) time.
 - Deletion from beginning or any index: Involves shifting elements to the left.
-  - Deleting at index i: O(N - i) time.
-  - Deleting from the beginning: O(N) time.
+- Deleting at index i: O(N - i) time.
+- Deleting from the beginning: O(N) time.
+
+```c
+#include <iostream>
+
+// Function to delete an element from an array
+void deleteElement(int arr[], int& size, int index) {
+    if (index < 0 || index >= size) {
+        std::cout << "Invalid index!" << std::endl;
+        return;
+    }
+
+    // Shift elements to the left starting from the index
+    for (int i = index; i < size - 1; ++i) {
+        arr[i] = arr[i + 1];
+    }
+
+    // Decrease the size of the array
+    --size;
+}
+
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    int index = 2; // Index of the element to delete
+
+    std::cout << "Array before deletion:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    deleteElement(arr, size, index);
+
+    std::cout << "Array after deletion:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+```
 
 ## Static & Dynamic Arrays
 
@@ -390,6 +465,28 @@ Deletion of elements:
 - Insert: O(N)
 - Delete: O(N)
 
+```c
+#include <iostream>
+
+int main() {
+    // Define a static array of integers with size 5
+    int arr[5] = {10, 20, 30, 40, 50};
+
+    // Print the elements of the array
+    std::cout << "Elements of the array:" << std::endl;
+    for (int i = 0; i < 5; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+Elements of the array:
+10 20 30 40 50
+
+```
+
 ### Dynamic Arrays
 
 - Size can change after creation.
@@ -404,6 +501,39 @@ Deletion of elements:
 - Append: O(N)
 - Insert: O(N)
 - Delete: O(N)
+
+```c
+#include <iostream>
+
+int main() {
+    // Define the size of the dynamic array
+    int size;
+    std::cout << "Enter the size of the array: ";
+    std::cin >> size;
+
+    // Dynamically allocate memory for the array
+    int* arr = new int[size];
+
+    // Input elements into the array
+    std::cout << "Enter " << size << " elements:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cin >> arr[i];
+    }
+
+    // Print the elements of the array
+    std::cout << "Elements of the array:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // Free the dynamically allocated memory
+    delete[] arr;
+
+    return 0;
+}
+
+```
 
 ## Complexity Analysis and Big O Notation
 
@@ -431,6 +561,7 @@ int main() {
    return 0; 
 }
 ```
+
 ```cpp
 
 #include <iostream>
@@ -453,10 +584,6 @@ int main() {
    return 0;
 }
 ```
-
- 
-
- 
 
 # Algorithmic Complexity and Array Traversal
 
