@@ -321,6 +321,8 @@ String studentName;
 
 # Java Keywords
 
+![java keywords](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/60379673-6488-4ca0-afdf-c2e723307ffb)
+
 Keywords in Java, also known as reserved words, are predefined words with special meanings. These words cannot be used as variable names, as doing so will result in a compile-time error. Below is a list of all the Java keywords:
 
 - `abstract`
@@ -391,4 +393,99 @@ int 1x = 10;
 int num ber = 10;
 ```
 In the incorrect examples, 1x and num ber are using keywords or reserved words as variable names, which is not allowed in Java.
+
+# Data Types in Java
+
+In Java, data types define the type of value that can be stored in a variable. There are two categories of data types:
+
+## 1. Primitive Data Types
+
+Primitive data types are predefined by the language and are named by a keyword or reserved keyword. There are eight types of primitive data types in Java:
+
+### boolean
+- Specifies only one bit of information, storing either `true` or `false`.
+
+### byte
+- An 8-bit signed two’s complement integer, with values ranging from -128 to 127. Commonly used to save memory in large arrays.
+
+### short
+- A 16-bit signed two’s complement integer, capable of holding values between -32768 to 32767. Like `byte`, used to save memory in large arrays.
+
+### int
+- A 32-bit signed two’s complement integer, with values ranging from -2,147,483,648 to 2,147,483,647. Default value is 0.
+
+### long
+- A 64-bit two’s complement integer, holding values between -2^63 to 2^63-1. Default value is 0.
+
+### float
+- Used to store floating-point numbers, with single-precision 32-bit IEEE 754 floating-point format. Recommended for saving memory in large arrays of floating-point numbers. Default value is 0.0f.
+
+### double
+- Used for storing decimal values, with double-precision 64-bit IEEE 754 floating-point format. Default value is 0.0d.
+
+### char
+- Stores characters as single 16-bit Unicode characters.
+
+## 2. Non-Primitive Data Types
+
+Non-Primitive data types refer to objects. Examples include `ArrayList` and `String`. These will be discussed later.
+
+## Example
+
+### Primitive Data Types
+
+```java
+int price = 5000;                 // Integer Value
+float rateOfInterest = 5.99f;     // Floating point number
+char ch = 'a';                    // Character
+String str = "Coding Ninjas";     // String
+
+```
+# Scope of Variables in Java
+
+The scope of a variable refers to the part of the program where the variable is accessible. It is determined at compile time. There are mainly two types of variable scope in Java:
+
+## 1) Local Variables Scope
+
+A local variable is defined inside a block, method body, or constructor. These variables can't be accessed outside the method in which they are declared.
+
+### Example:
+
+```java
+public class VariableScope {
+    void method() {
+        // Local variable (Method Level Scope)
+        // This variable can't be accessed outside
+        // the method body.
+        int x;
+    }
+}
+```
+
+## 2) Member/Class Level Variable Scope
+A member or class-level variable is declared inside the class but outside the method body, block, or constructor. These variables can be directly accessed anywhere in the class.
+
+Example:
+```java
+class VariableScope {
+    // Variable defined inside the class
+    int x;
+}
+
+public class VariableScopeDemo {
+    public static void main(String args[]) {
+        // Creating VariableScope class object
+        VariableScope obj = new VariableScope();
+        
+        // Assigning values to the variable
+        obj.x = 10;
+        
+        // Printing the value
+        System.out.println(obj.x);
+    }
+}
+
+```
+Output:
+10
 
