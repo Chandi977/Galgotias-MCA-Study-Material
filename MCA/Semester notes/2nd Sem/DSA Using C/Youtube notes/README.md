@@ -144,6 +144,8 @@ Data structures are fundamental concepts in computer science that involve the or
 - Multilingual Approach
 - Hands-On Practice
 - Adaptable for All Levels
+- 
+![Intro](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/cfaccfbf-7392-4600-b337-a6968ce4b53f)
 
 
 ## Linear Data Structures
@@ -178,23 +180,33 @@ Data structures are fundamental concepts in computer science that involve the or
 
 ### Real-world Examples of Linear Data Structures
 
-**Arrays:**
+# Arrays:
+![array](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/b3d60afd-6983-442c-bb4f-f7037bfeb158)
+
 - Grocery Shopping List: Managing your shopping list with each item corresponding to an array index simplifies adding, removing, and checking off items.
 - Image Pixels: In digital images, arrays store pixel values, allowing manipulation and editing of pictures by altering individual pixel colours.
 
-**Linked Lists:**
+# Linked Lists:
+![linkedlist](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/22d19f78-fad1-45d4-b520-2139a7e921ba)
+
 - Music Playlist: Linked lists are suitable for creating playlists, where songs are nodes connected in a sequence, allowing easy rearrangement and modification.
 - Train Cars: Linked lists can represent train cars linked together, enabling efficient addition and removal of cars without affecting the entire train.
 
-**Stacks:**
+# Stacks:
+![stack](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/a24d6430-93c8-480c-8ff5-0b95a9083b4d)
+
 - Undo Feature: In software applications, stacks manage to undo operations, enabling users to reverse actions in the order they were performed.
 - Plate Stacking: Plates stacked on top of each other represent a real-world example of a stack, where the last plate placed is the first one taken.
 
-**Queues:**
+# Queues:
+![queue](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/e4389832-f95a-4eb5-9545-333cf9809ade)
+
 - Cafeteria Line: Queues model waiting in line at a cafeteria, where the first person in line is served first, maintaining order and fairness.
 - Ticket Counter: Waiting in line to purchase tickets, like at a cinema or an event, follows the queue concept.
 
-**Deques (Double-Ended Queues):**
+# Deques (Double-Ended Queues):
+![dqueue](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/b65cafbf-6cc9-4019-a129-bf410bb90d5c)
+
 - Sliding Glass Doors: Deques are similar to sliding glass doors at entrances, allowing people to enter or exit from both sides.
 - Printing and Scanning: Deques mimic the process of loading and unloading papers for printing and scanning, as both ends are accessible.
 
@@ -224,13 +236,22 @@ Non-linear data structures do not follow a sequential order; each element can co
 
 ## Real-world Examples of Non-Linear Data Structures:
 
-- **Tree:**
-  - File System: Organizing files in a hierarchical structure mirrors the tree concept.
+# Tree:
+![tree](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/9d41c974-fd22-4e33-b59e-216c8226cc28)
+  - File System: Orga
+nizing files in a hierarchical structure mirrors the tree concept.
   - Family Genealogy: Representing family relationships, like a family tree.
-- **Graph:**
+    
+  # Graph:
+
+  ![graph](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/428487c7-d3cf-45c8-85df-9615724910c9)
+
   - Social Networks: Social media platforms model users and their connections.
   - Road Networks: Maps utilize graphs to represent roads and intersections.
-- **Heap:**
+ # Heap:
+
+  ![heap](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/de0a24a7-e7c7-428c-a92a-6cf542e7f4e2)
+
   - Priority Queue: A hospital's patient queue modeled using a heap.
   - Memory Allocation: The memory heap in programming languages allocates memory dynamically.
 
@@ -280,11 +301,14 @@ Non-linear data structures do not follow a sequential order; each element can co
 
 Single dimensional arrays store elements linearly in contiguous memory locations, utilizing a single dimension. They are denoted as `Array_Name[]`.
 
+![array](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/d5182819-6803-4a7a-ba58-b5ddb78e672e)
+
 ## Multi-Dimensional Arrays
 
 Arrays with more than one dimension are termed multiple-dimensional arrays. The most common multi-dimensional arrays are 2D and 3D arrays.
 
 ### Two-dimensional arrays
+![2darray](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/135ce178-cc22-482a-abf2-b20c6294d863)
 
 2D arrays provide a tabular representation by arranging elements in rows (i) * columns (j). For example, `A[2][3]` will have 2 rows and 3 columns, allocating 6 elements. The array starts from `A[0][0]`.
 
@@ -294,10 +318,16 @@ A 3D array extends a 2D array by adding a depth dimension. It's denoted as `A[k]
 
 ## Properties of Arrays
 
+![properties_of_arrays](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/d8e4a3f8-0cec-4813-9180-8b953a203d01)
+
 - Each array element is of the same data type and size. For example, for an array of integers with the `int` data type, each element occupies 4 bytes.
 - Elements of the array are stored in contiguous memory locations. For instance, if 200 is the starting address (base address) assigned to the first element, each subsequent element follows in memory.
 
 ## Accessing Array Elements
+
+![arrayTraversal](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/aa7c3150-0e1f-4776-9dee-a9b651e64770)
+
+![traversal](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/8f3e3c18-7e54-4636-bbb1-a41b79f6a38c)
 
 - Elements are accessed using their index, which ranges from 0 to N-1 for an array of size N. For example, accessing element at index 5: `Array[5]`.
 - Every array is identified by its base address, i.e., the location of the first element. Hence, the base address helps identify the address of all array elements. For instance, the address of the element at index 4 will be `200 + 4 * (sizeof(int)) = 216`.
@@ -323,7 +353,8 @@ A 3D array extends a 2D array by adding a depth dimension. It's denoted as `A[k]
   - At index i: O(N - i)
   - At the beginning: O(N)
 
- 
+ ![complexity_chart](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/0c9eeafc-39e9-4c70-a3a9-cf59ccfdda20)
+
 
 # Array Operations and Complexity Analysis
 
@@ -331,15 +362,92 @@ A 3D array extends a 2D array by adding a depth dimension. It's denoted as `A[k]
 
 Finding an element in an array takes O(N) time in the worst case, where N is the size of the array, as you may need to traverse the entire array.
 
+```c
+#include <iostream>
+
+// Function to perform linear search
+int linearSearch(int arr[], int n, int target) {
+    for (int i = 0; i < n; ++i) {
+        if (arr[i] == target) {
+            return i; // Return index if element is found
+        }
+    }
+    return -1; // Return -1 if element is not found
+}
+
+int main() {
+    int arr[] = {1, 3, 5, 7, 9, 11, 13, 15};
+    int n = sizeof(arr) / sizeof(arr[0]); // Calculate array size
+    int target = 7;
+
+    int index = linearSearch(arr, n, target);
+    if (index != -1) {
+        std::cout << "Element found at index: " << index << std::endl;
+    } else {
+        std::cout << "Element not found in the array" << std::endl;
+    }
+
+    return 0;
+}
+
+```
+
 ## Deleting Elements
 
 Deletion of elements:
 - Deletion from the end: O(1) time.
 - Deletion from beginning or any index: Involves shifting elements to the left.
-  - Deleting at index i: O(N - i) time.
-  - Deleting from the beginning: O(N) time.
+- Deleting at index i: O(N - i) time.
+- Deleting from the beginning: O(N) time.
+
+```c
+#include <iostream>
+
+// Function to delete an element from an array
+void deleteElement(int arr[], int& size, int index) {
+    if (index < 0 || index >= size) {
+        std::cout << "Invalid index!" << std::endl;
+        return;
+    }
+
+    // Shift elements to the left starting from the index
+    for (int i = index; i < size - 1; ++i) {
+        arr[i] = arr[i + 1];
+    }
+
+    // Decrease the size of the array
+    --size;
+}
+
+int main() {
+    int arr[] = {10, 20, 30, 40, 50};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    int index = 2; // Index of the element to delete
+
+    std::cout << "Array before deletion:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    deleteElement(arr, size, index);
+
+    std::cout << "Array after deletion:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+```
 
 ## Static & Dynamic Arrays
+
+![staticandDynamicArrays](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/003340ed-2e3b-44be-b9bb-a86c4c9164aa)
+
 
 ### Static Arrays
 
@@ -357,6 +465,28 @@ Deletion of elements:
 - Insert: O(N)
 - Delete: O(N)
 
+```c
+#include <iostream>
+
+int main() {
+    // Define a static array of integers with size 5
+    int arr[5] = {10, 20, 30, 40, 50};
+
+    // Print the elements of the array
+    std::cout << "Elements of the array:" << std::endl;
+    for (int i = 0; i < 5; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
+
+Elements of the array:
+10 20 30 40 50
+
+```
+
 ### Dynamic Arrays
 
 - Size can change after creation.
@@ -372,6 +502,39 @@ Deletion of elements:
 - Insert: O(N)
 - Delete: O(N)
 
+```c
+#include <iostream>
+
+int main() {
+    // Define the size of the dynamic array
+    int size;
+    std::cout << "Enter the size of the array: ";
+    std::cin >> size;
+
+    // Dynamically allocate memory for the array
+    int* arr = new int[size];
+
+    // Input elements into the array
+    std::cout << "Enter " << size << " elements:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cin >> arr[i];
+    }
+
+    // Print the elements of the array
+    std::cout << "Elements of the array:" << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
+    // Free the dynamically allocated memory
+    delete[] arr;
+
+    return 0;
+}
+
+```
+
 ## Complexity Analysis and Big O Notation
 
 Big O notation expresses algorithmic complexity relative to input size. Here are common Big O notations:
@@ -384,7 +547,12 @@ Big O notation expresses algorithmic complexity relative to input size. Here are
 
 Traversal involves visiting each array element sequentially. It's useful for counting, printing, changing values, etc.
 
+![traversal](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/0ab59034-99e0-4554-a06f-60331a4614c3)
+
+
 ```cpp
+#include<iostream>
+using namespace std;
 int main() { 
    int array[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }; 
    for (int i = 0; i < 10; i++) { 
@@ -393,6 +561,7 @@ int main() {
    return 0; 
 }
 ```
+
 ```cpp
 
 #include <iostream>
@@ -415,10 +584,6 @@ int main() {
    return 0;
 }
 ```
-
- 
-
- 
 
 # Algorithmic Complexity and Array Traversal
 
@@ -1024,10 +1189,18 @@ Linked lists are employed in applications that require undo/redo functionality, 
 # Stack
 
 Imagine a stack of plates or a pile of notebooks - these are common real-world representations of a stack. A stack is a fundamental data structure that can efficiently solve many interesting problems.
+![introduction-to-stacks-1-1700465843](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/66dc126a-add8-4086-b5a5-3b92c32705aa)
 
 ## Overview
 
 In a stack, data values are stacked on top of each other. The topmost element is the most recently added, while the bottommost element is the oldest.
+
+![introduction-to-stacks-2-1700465843](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/3660b40a-3e60-48db-95ae-dbfc732409a8)
+
+![introduction-to-stacks-3-1700465844](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/7f643c77-4b4e-44e9-9b88-b4a568f77a88)
+
+![introduction-to-stacks-4-1700465844](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/dfe62d60-1f9e-4f5c-82a2-71c051c88e7a)
+
 
 ### Key Points:
 
@@ -1040,67 +1213,16 @@ In a stack, data values are stacked on top of each other. The topmost element is
   - **SIZE:** Get the count of elements in the stack.
   - **EMPTY:** Check if the stack is empty.
 
-
-This is a simple example of implementing a stack in C++ using the standard template library (`std::stack`).
-
-## Prerequisites
-
-Before running this code, ensure you have a C++ compiler installed on your system.
-
-## Usage
-
-1. Clone or download this repository to your local machine.
-2. Navigate to the directory containing the source code.
-3. Compile the source code using your C++ compiler.
-4. Run the compiled executable file.
-
-## Example code
-```c
-#include <iostream>
-#include <stack>
-
-int main() {
-    // Create a stack of integers
-    std::stack<int> s;
-
-    // Push elements onto the stack
-    s.push(10);
-    s.push(20);
-    s.push(30);
-
-    // Print the top element of the stack
-    std::cout << "Top element: " << s.top() << std::endl;
-
-    // Pop an element from the stack
-    s.pop();
-
-    // Print the top element of the stack after popping
-    std::cout << "Top element after pop: " << s.top() << std::endl;
-
-    // Check if the stack is empty
-    std::cout << "Is the stack empty? " << (s.empty() ? "Yes" : "No") << std::endl;
-
-    // Print the size of the stack
-    std::cout << "Size of the stack: " << s.size() << std::endl;
-
-    return 0;
-}
-```
-This code demonstrates basic operations on a stack:
-
-Creating a stack of integers using std::stack<int>.
-Pushing elements onto the stack using push().
-Accessing the top element of the stack using top().
-Popping an element from the stack using pop().
-Checking if the stack is empty using empty().
-Getting the size of the stack using size().
-
-
 ## Monotonic Stack
 
 Monotonic stack is a concept where elements in the stack follow a specific order - either increasing or decreasing.
 
+![monotonic-stack-0-1700465926](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/ea365b7b-b3d6-4b46-b8fa-632f65373b35)
+
+![monotonic-stack-1-1700465927](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/37970e68-188f-4d3e-ac52-400e07c83fdb)
+
 ### Types:
+
 
 - **Increasing Monotonic Stack:** Elements increase as we move towards the bottom of the stack. The topmost element is the smallest, and the bottommost is the largest.
 - **Decreasing Monotonic Stack:** Elements decrease as we move towards the bottom of the stack. The topmost element is the largest, and the bottommost is the smallest.
