@@ -65,6 +65,8 @@ Java is used extensively in web development, with popular frameworks like Spring
 
 # JDK, JRE, and JVM
 
+![java1](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/a995c973-a635-4f1f-ba55-7ec1cd5c5e9d)
+
 JDK, JRE, and JVM are essential components of the Java programming language, providing the necessary environment to develop and run Java programs.
 
 ## JDK (Java Development Kit)
