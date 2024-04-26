@@ -1040,6 +1040,62 @@ In a stack, data values are stacked on top of each other. The topmost element is
   - **SIZE:** Get the count of elements in the stack.
   - **EMPTY:** Check if the stack is empty.
 
+
+This is a simple example of implementing a stack in C++ using the standard template library (`std::stack`).
+
+## Prerequisites
+
+Before running this code, ensure you have a C++ compiler installed on your system.
+
+## Usage
+
+1. Clone or download this repository to your local machine.
+2. Navigate to the directory containing the source code.
+3. Compile the source code using your C++ compiler.
+4. Run the compiled executable file.
+
+## Example code
+```c
+#include <iostream>
+#include <stack>
+
+int main() {
+    // Create a stack of integers
+    std::stack<int> s;
+
+    // Push elements onto the stack
+    s.push(10);
+    s.push(20);
+    s.push(30);
+
+    // Print the top element of the stack
+    std::cout << "Top element: " << s.top() << std::endl;
+
+    // Pop an element from the stack
+    s.pop();
+
+    // Print the top element of the stack after popping
+    std::cout << "Top element after pop: " << s.top() << std::endl;
+
+    // Check if the stack is empty
+    std::cout << "Is the stack empty? " << (s.empty() ? "Yes" : "No") << std::endl;
+
+    // Print the size of the stack
+    std::cout << "Size of the stack: " << s.size() << std::endl;
+
+    return 0;
+}
+```
+This code demonstrates basic operations on a stack:
+
+Creating a stack of integers using std::stack<int>.
+Pushing elements onto the stack using push().
+Accessing the top element of the stack using top().
+Popping an element from the stack using pop().
+Checking if the stack is empty using empty().
+Getting the size of the stack using size().
+
+
 ## Monotonic Stack
 
 Monotonic stack is a concept where elements in the stack follow a specific order - either increasing or decreasing.
