@@ -808,7 +808,7 @@ Insertion involves adding a new element to the linked list at a specified positi
 - At the end of the linked list
 - At any position in between
 
-Let's examine the possible variations:
+Lets examine the possible variations:
 
 1. **Insertion at Head (Start of List):**
    - Time Complexity: O(1) Constant
@@ -1004,6 +1004,7 @@ int lengthOfLinkedList(Node* head) {
     }
     return length;
 }
+
 
 ## Real-Life Applications of Linked List
 
