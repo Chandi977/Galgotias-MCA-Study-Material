@@ -84,19 +84,6 @@ CSS           0 secs          ░░░░░░░░░░░░░░░░�
 ____
 ____
 
-<!-- # Recent Activity :zap:
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#25](https://github.com/aitoss/Innerve8/pull/25) in [aitoss/Innerve8](https://github.com/aitoss/Innerve8)
-2. 💪 Opened PR [#1](https://github.com/09sunshine/ecell-webdev/pull/1) in [09sunshine/ecell-webdev](https://github.com/09sunshine/ecell-webdev)
-3. 🎉 Merged PR [#2](https://github.com/Chandi977/Replica2-OSS/pull/2) in [Chandi977/Replica2-OSS](https://github.com/Chandi977/Replica2-OSS)
-4. 🎉 Merged PR [#1](https://github.com/Chandi977/Replica2-OSS/pull/1) in [Chandi977/Replica2-OSS](https://github.com/Chandi977/Replica2-OSS)
-5. 🚀 Published release [First Release](https://github.com/Chandi977/Replica1-Spotify/releases/tag/v1.0.0) in [Chandi977/Replica1-Spotify](https://github.com/Chandi977/Replica1-Spotify)
-6. 💪 Opened PR [#1](https://github.com/Chandi977/Cpp-patterns/pull/1) in [Chandi977/Cpp-patterns](https://github.com/Chandi977/Cpp-patterns)
-7. 💪 Opened PR [#1](https://github.com/Chandi977/Piano/pull/1) in [Chandi977/Piano](https://github.com/Chandi977/Piano)
-8. 🎉 Merged PR [#3](https://github.com/Chandi977/Python-Stars-Pattern/pull/3) in [Chandi977/Python-Stars-Pattern](https://github.com/Chandi977/Python-Stars-Pattern)
-9. 🔒 Reopened issue [#11](https://github.com/Chandi977/ColorChalks/issues/11) in [Chandi977/ColorChalks](https://github.com/Chandi977/ColorChalks)
-10. 🔒 Closed issue [#11](https://github.com/Chandi977/ColorChalks/issues/11) in [Chandi977/ColorChalks](https://github.com/Chandi977/ColorChalks)
-END_SECTION:activity -->
 
 ___
 
