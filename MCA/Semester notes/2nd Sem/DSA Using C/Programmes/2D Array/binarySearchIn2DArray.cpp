@@ -51,13 +51,13 @@ int main() {
     }else{
         cout<<"Element Not Found"<<endl;
     }
-    // cout << "The matrix you entered is:" << endl;
-    // for (int i = 0; i < rows; ++i) {
-    //     for (int j = 0; j < cols; ++j) {
-    //         cout << matrix[i][j] << " ";
-    //     }
-    //     cout << endl;
-    // }
+    cout << "The matrix you entered is:" << endl;
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < cols; ++j) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
 
     return 0;
 }
