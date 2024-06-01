@@ -1,3 +1,23 @@
+# Java Programming Guide
+
+## Table of Contents
+- [Introduction to Java](#introduction-to-java)
+- [Data Types in Java](#data-types-in-java)
+- [Variables in Java](#variables-in-java)
+- [Java Operators](#java-operators)
+  - [Arithmetic Operators](#arithmetic-operators-in-java)
+  - [Unary Operators](#unary-operators-in-java)
+  - [Assignment Operators](#assignment-operators-in-java)
+  - [Relational Operators](#relational-operators-in-java)
+  - [Logical Operators](#logical-operators-in-java)
+  - [Bitwise Operators](#bitwise-operators-in-java)
+  - [Ternary Operator](#ternary-operator-in-java)
+  - [Instanceof Operator](#instanceof-operator-in-java)
+- [Control Statements in Java](#control-statements-in-java)
+- [Scanner Class in Java](#scanner-class-in-java)
+
+---
+
 # Introduction to Java
 
 Java is an object-oriented, class-based, secured, platform-independent, and general-purpose programming language. Originally developed by James Gosling at Sun Microsystems and released in 1995, Java is a core component of Sun Microsystem’s Java platform. It follows the principle of "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms supporting Java without recompilation.
