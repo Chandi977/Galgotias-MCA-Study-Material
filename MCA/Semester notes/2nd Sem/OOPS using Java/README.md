@@ -776,6 +776,8 @@ Scanner is a class in Java that is used to take input from the user. It is prese
 
 Java Scanner class provides various methods to read different primitive data types from the user.
 
+![Inputs](https://github.com/Chandi977/Galgotias-MCA-Study-Material/assets/55855799/fde43240-a7c0-4f28-bf2d-ea40a8e31cb8)
+
 ### Example 1: Taking int value from the user
 
 ```java
