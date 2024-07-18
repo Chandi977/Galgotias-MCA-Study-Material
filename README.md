@@ -6,9 +6,9 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 
 ### Core Subjects
 
-#### First Year
+#### **[First Year](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year)**
 
-##### Semester 1
+#### **[Semester 1](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem)**
 
 1. **[Fundamentals of Computer and Emerging Technology (KCA101)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem/FCET)**
    - Study materials on the basics of computer science and emerging technologies
@@ -41,7 +41,7 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 3. **Professional Communication (KCA153)**
    - Practical sessions to enhance communication skills
 
-##### Semester 2
+#### **[Semester 2](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem)**
 
 1. **[Theory of Automata & Formal Language (KCA201)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem/Theory%20of%20Automata/Notes)**
    - Study materials and notes on automata theory, formal languages, and computability
