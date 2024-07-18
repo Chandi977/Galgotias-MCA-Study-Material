@@ -5,8 +5,10 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 ## Contents
 
 ### Core Subjects
+----
 
 #### **[First Year](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year)**
+----
 
 #### **[Semester 1](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem)**
 
@@ -40,6 +42,7 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 
 3. **Professional Communication (KCA153)**
    - Practical sessions to enhance communication skills
+-------------
 
 #### **[Semester 2](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem)**
 
