@@ -2,13 +2,11 @@
 
 Welcome to the Galgotias MCA Study Material repository! This repository contains a collection of study materials, notes, codes, projects, presentations (PPT), assignments, and previous year papers specifically curated for MCA (Master of Computer Applications) students at Galgotias University. Whether you're a current student or an aspiring one, this repository aims to provide you with valuable resources to support your academic journey.
 
-## Contents
-
-### Core Subjects
+## Core Subjects
 ----
 
-#### **[First Year](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year)**
-----
+### **[First Year](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year)**
+____
 
 #### **[Semester 1](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem)**
 
@@ -80,8 +78,9 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 
 3. **DSA Lab**
    - Practical assignments to implement and analyze data structures and algorithms
+_____
 
-#### Second Year
+### Second Year
 
 **To be continued...**
 
