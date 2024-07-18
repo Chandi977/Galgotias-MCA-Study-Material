@@ -76,7 +76,7 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 3. **DSA Lab**
    - Practical assignments to implement and analyze data structures and algorithms
 
-#### Second Year
+### Second Year
 
 **To be continued...**
 
