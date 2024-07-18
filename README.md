@@ -6,7 +6,7 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 ----
 
 ### **[First Year](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year)**
-____
+
 
 #### **[Semester 1](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem)**
 
