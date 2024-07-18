@@ -2,29 +2,31 @@
 
 Welcome to the Galgotias MCA Study Material repository! This repository contains a collection of study materials, notes, codes, projects, presentations (PPT), assignments, and previous year papers specifically curated for MCA (Master of Computer Applications) students at Galgotias University. Whether you're a current student or an aspiring one, this repository aims to provide you with valuable resources to support your academic journey.
 
-## Core Subjects
+## Contents
 
-### First Year
+### Core Subjects
 
-#### Semester 1
+#### First Year
 
-1. **Fundamentals of Computer and Emerging Technology (KCA101)**
+##### Semester 1
+
+1. **[Fundamentals of Computer and Emerging Technology (KCA101)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem/FCET)**
    - Study materials on the basics of computer science and emerging technologies
    - Includes topics like cloud computing, IoT, and AI
 
-2. **Problem Solving Using C (KCA102)**
+2. **[Problem Solving Using C (KCA102)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem/PSC)**
    - Notes and codes focusing on problem-solving techniques using C language
    - Covers basics of programming, control structures, arrays, and functions
 
-3. **Principle of Management and Communication (KCA103)**
+3. **[Principle of Management and Communication (KCA103)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem/POMC)**
    - Notes and assignments on management principles and effective communication
    - Covers organizational behavior, project management, and communication skills
 
-4. **Discrete Mathematics (KCA104)**
+4. **[Discrete Mathematics (KCA104)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem/DM)**
    - Notes and assignments on topics like set theory, graph theory, and combinatorics
    - Helps in understanding mathematical reasoning and problem-solving techniques
 
-5. **Computer Organization and Architecture (KCA105)**
+5. **[Computer Organization and Architecture (KCA105)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/1st%20Sem/COA)**
    - Resources on the structure and behavior of computer systems
    - Covers topics like CPU architecture, memory hierarchy, and assembly language
 
@@ -39,13 +41,13 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 3. **Professional Communication (KCA153)**
    - Practical sessions to enhance communication skills
 
-#### Semester 2
+##### Semester 2
 
-1. **Theory of Automata & Formal Language (KCA201)**
+1. **[Theory of Automata & Formal Language (KCA201)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem/Theory%20of%20Automata/Notes)**
    - Study materials and notes on automata theory, formal languages, and computability
    - Includes explanations of finite automata, context-free grammars, and Turing machines
 
-2. **Object-Oriented Programming (using Java) (KCA202)**
+2. **[Object-Oriented Programming (using Java) (KCA202)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem/OOPS%20using%20Java)**
    - Projects developed in Java
    - Demonstrates key OOP principles and enhances programming skills
 
@@ -53,15 +55,15 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
    - Notes and resources on operating system concepts
    - Covers process management, memory management, and file systems
 
-4. **Database Management Systems (KCA204)**
+4. **[Database Management Systems (KCA204)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem/DBMS)**
    - Notes, codes, and projects related to Database Management Systems
    - Covers concepts such as SQL, normalization, transactions, and database design
 
-5. **Data Structure & Analysis of Algorithm (KCA205)**
+5. **[Data Structure & Analysis of Algorithm (KCA205)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem/DSA%20Using%20C)**
    - Implementations in various programming languages (C, C++, Java)
    - Code snippets, explanations, and examples to understand fundamental concepts in DSA
 
-6. **Cyber Security (KCAA01) (Non-credit)**
+6. **[Cyber Security (KCAA01) (Non-credit)](https://github.com/Chandi977/Galgotias-MCA-Study-Material/tree/main/MCA/Semester%20notes/1st%20Year/2nd%20Sem/Cyber%20Security/Notes)**
    - Resources covering topics like network security, cryptography, and ethical hacking
    - Includes practical assignments and projects
 
@@ -76,7 +78,7 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 3. **DSA Lab**
    - Practical assignments to implement and analyze data structures and algorithms
 
-### Second Year
+#### Second Year
 
 **To be continued...**
 
