@@ -2,13 +2,11 @@
 
 Welcome to the Galgotias MCA Study Material repository! This repository contains a collection of study materials, notes, codes, projects, presentations (PPT), assignments, and previous year papers specifically curated for MCA (Master of Computer Applications) students at Galgotias University. Whether you're a current student or an aspiring one, this repository aims to provide you with valuable resources to support your academic journey.
 
-## Contents
+## Core Subjects
 
-### Core Subjects
+### First Year
 
-#### First Year
-
-##### Semester 1
+#### Semester 1
 
 1. **Fundamentals of Computer and Emerging Technology (KCA101)**
    - Study materials on the basics of computer science and emerging technologies
@@ -41,7 +39,7 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 3. **Professional Communication (KCA153)**
    - Practical sessions to enhance communication skills
 
-##### Semester 2
+#### Semester 2
 
 1. **Theory of Automata & Formal Language (KCA201)**
    - Study materials and notes on automata theory, formal languages, and computability
