@@ -4,15 +4,83 @@ Welcome to the Galgotias MCA Study Material repository! This repository contains
 
 ## Contents
 
-1. **Data Structures and Algorithms (DSA) Codes**: Explore implementations of various data structures and algorithms in different programming languages like C, C++, Java, Python, etc. These code snippets, explanations, and examples will help you understand fundamental concepts in DSA.
+### Core Subjects
 
-2. **Object-Oriented Programming (OOPs) Projects**: Access a diverse range of OOPs projects developed using languages such as Java, C++, or Python. These projects demonstrate key OOPs principles and are designed to enhance your programming skills.
+#### First Year
 
-3. **Presentations (PPT)**: Find PowerPoint presentations covering important topics from your MCA curriculum. These presentations are crafted to simplify complex concepts and aid in your understanding and revision.
+##### Semester 1
 
-4. **Assignments**: Dive into a variety of assignments related to different subjects of your MCA program. These assignments are designed to test your comprehension and application of theoretical knowledge to practical problems.
+1. **Fundamentals of Computer and Emerging Technology (KCA101)**
+   - Study materials on the basics of computer science and emerging technologies
+   - Includes topics like cloud computing, IoT, and AI
 
-5. **Previous Year Papers**: Review previous year papers to familiarize yourself with the exam pattern, question types, and important topics. Solving these papers will help you prepare effectively for your upcoming exams.
+2. **Problem Solving Using C (KCA102)**
+   - Notes and codes focusing on problem-solving techniques using C language
+   - Covers basics of programming, control structures, arrays, and functions
+
+3. **Principle of Management and Communication (KCA103)**
+   - Notes and assignments on management principles and effective communication
+   - Covers organizational behavior, project management, and communication skills
+
+4. **Discrete Mathematics (KCA104)**
+   - Notes and assignments on topics like set theory, graph theory, and combinatorics
+   - Helps in understanding mathematical reasoning and problem-solving techniques
+
+5. **Computer Organization and Architecture (KCA105)**
+   - Resources on the structure and behavior of computer systems
+   - Covers topics like CPU architecture, memory hierarchy, and assembly language
+
+**Lab Subjects:**
+
+1. **C Lab (KCA151)**
+   - Practical assignments and projects using C programming
+
+2. **Computer Organization and Architecture Lab (KCA152)**
+   - Practical assignments to understand computer hardware and architecture
+
+3. **Professional Communication (KCA153)**
+   - Practical sessions to enhance communication skills
+
+##### Semester 2
+
+1. **Theory of Automata & Formal Language (KCA201)**
+   - Study materials and notes on automata theory, formal languages, and computability
+   - Includes explanations of finite automata, context-free grammars, and Turing machines
+
+2. **Object-Oriented Programming (using Java) (KCA202)**
+   - Projects developed in Java
+   - Demonstrates key OOP principles and enhances programming skills
+
+3. **Operating System (KCA203)**
+   - Notes and resources on operating system concepts
+   - Covers process management, memory management, and file systems
+
+4. **Database Management Systems (KCA204)**
+   - Notes, codes, and projects related to Database Management Systems
+   - Covers concepts such as SQL, normalization, transactions, and database design
+
+5. **Data Structure & Analysis of Algorithm (KCA205)**
+   - Implementations in various programming languages (C, C++, Java)
+   - Code snippets, explanations, and examples to understand fundamental concepts in DSA
+
+6. **Cyber Security (KCAA01) (Non-credit)**
+   - Resources covering topics like network security, cryptography, and ethical hacking
+   - Includes practical assignments and projects
+
+**Lab Subjects:**
+
+1. **OOPS Lab**
+   - Practical assignments and projects using Java to understand OOP concepts
+
+2. **DBMS Lab**
+   - Practical assignments to design and manage databases
+
+3. **DSA Lab**
+   - Practical assignments to implement and analyze data structures and algorithms
+
+#### Second Year
+
+**To be continued...**
 
 ## Usage
 
@@ -20,11 +88,11 @@ Feel free to explore the folders and files in this repository to access the reso
 
 ## Contribution
 
-Contributions to this repository are highly encouraged. If you have additional notes, codes, projects, presentations, assignments, or previous year papers that could benefit your peers, please consider contributing by creating a pull request. Your contributions will be greatly appreciated and will enrich the learning experience for the entire MCA community at Galgotias University.
+Contributions to this repository are highly encouraged. If you have additional notes, codes, projects, presentations, assignments, or previous year papers that could benefit your peers, please consider contributing by creating a pull request. Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
 
 ## Feedback
 
-Your feedback is valuable in improving this repository. If you have suggestions, comments, or requests for additional resources, please don't hesitate to open an issue. We are committed to making this repository as helpful and comprehensive as possible for all MCA students.
+Your feedback is valuable in improving this repository. If you have suggestions, comments, or requests for additional resources, please open an issue using our feedback template.
 
 ## Disclaimer
 
@@ -37,4 +105,4 @@ This repository is licensed under the [MIT License](LICENSE). You are free to us
 Happy learning!
 
 **Contributors**
-feel free to contrbute.
+Feel free to contribute. Add content for core subjects like Data Structures and Algorithms (DSA), Object-Oriented Programming (OOPs), DBMS, Theory of Computation, CyberSecurity, Discrete Mathematics, Fundamentals of Computer and Emerging Technology, Computer Organization and Architecture, Principle of Management and Communication, Problem Solving using C, and Operating System.
